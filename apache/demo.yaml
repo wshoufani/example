@@ -1,5 +1,5 @@
 ---
-- name: install git
+- name: connect to local server
   hosts:  webservers
   user: shoufaniw
   become: yes
