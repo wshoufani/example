@@ -1,0 +1,8 @@
+[webservers]
+shoufaniw-ubuntudev ansible_connection=local
+
+[dbservers]
+shoufaniw-ubuntudev
+
+[all:vars]
+ansible-ssh-private-key-file=/home/shoufaniw/workspaces/example1/apache/shoufaniw.key

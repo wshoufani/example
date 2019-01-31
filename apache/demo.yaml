@@ -1,0 +1,9 @@
+---
+- name: install git
+  hosts:  webservers
+  user: shoufaniw
+  become: yes
+  
+  tasks:
+  - name: install git
+    yum: name=git state=present
