@@ -1,7 +1,7 @@
 ---
 - name: connect to local server
   hosts:  webservers
-  user: shoufaniw
+  user: test
   become: yes
   
   tasks:
